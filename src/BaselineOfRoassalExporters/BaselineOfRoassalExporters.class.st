@@ -19,7 +19,7 @@ BaselineOfRoassalExporters >> baseline: spec [
 			hasCanvas ifFalse: [
 				spec
 				baseline: 'Roassal'
-				with: [ spec repository: 'github://bauing-schmidt/Roassal:production11/src' ].
+				with: [ spec repository: 'github://bauing-schmidt/Roassal:production12/src' ].
 			].
 
 			spec
