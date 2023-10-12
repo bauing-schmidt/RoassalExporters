@@ -12,15 +12,10 @@ BaselineOfRoassalExporters >> baseline: spec [
 	<baseline>
 	spec
 		for: #common
-		do: [ | hasCanvas |
+		do: [ 
 			"our dependencies"
 			"https://github.com/pharo-graphics/RoassalExporters"
-			hasCanvas := Smalltalk globals includesKey: #RSCanvas.
-			hasCanvas ifFalse: [
-				spec
-				baseline: 'Roassal'
-				with: [ spec repository: 'github://bauing-schmidt/Roassal:production12/src' ].
-			].
+
 
 			spec
 				baseline: 'OSSubprocess'
