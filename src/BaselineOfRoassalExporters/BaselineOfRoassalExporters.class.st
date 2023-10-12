@@ -28,7 +28,7 @@ BaselineOfRoassalExporters >> baseline: spec [
 
 			spec
 				package: #'Roassal-Exporters' with: [
-					spec requires: ('Units') ])
+					spec requires: ('Units')
 					 ];
 				package: #'Roassal-Exporters-Examples';
 				package: #'Roassal-Exporters-Tests';
