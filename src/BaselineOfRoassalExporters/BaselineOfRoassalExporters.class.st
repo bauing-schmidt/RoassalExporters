@@ -28,9 +28,7 @@ BaselineOfRoassalExporters >> baseline: spec [
 
 			spec
 				package: #'Roassal-Exporters' with: [
-					spec requires: (hasCanvas
-						ifTrue: [ #('Units') ]
-						ifFalse: [ #('Units' 'Roassal') ])
+					spec requires: ('Units') ])
 					 ];
 				package: #'Roassal-Exporters-Examples';
 				package: #'Roassal-Exporters-Tests';
